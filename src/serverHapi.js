@@ -3,7 +3,7 @@
 const Hapi = require('hapi')
 
 const server = Hapi.server({
-    host: 'localhost',
+    host: '0.0.0.0',
     port: 80
 })
 
